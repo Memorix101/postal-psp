@@ -1,0 +1,1 @@
+.\at3tool -e -wholeloop SND0.mp3 SND0.AT3

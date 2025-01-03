@@ -217,14 +217,20 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     pspnet_apctl
     pspnet_inet
     pspnet_resolver
+    pspctrl
+    pspaudiolib
+    psputility
 )
 
-# Compiler options
+# Compiler options use -O0 -g for debugging 
 set(COMMON_COMPILE_FLAGS
     -G0
     -Wall
     -Wno-narrowing
     -O2
+    -w
+    -DPSP_LARGE_MEMORY=ON
+    -DBUILD_PRX=ON
     -fno-exceptions
     -fno-rtti
     -std=c++11
@@ -233,7 +239,7 @@ set(COMMON_COMPILE_FLAGS
     -DDEBUG
     -DLOCALE=US
     -DTARGET=POSTAL_2015
-    -w
+    -DPSPFW3X
 )
 
 target_compile_options(${PROJECT_NAME} PRIVATE ${COMMON_COMPILE_FLAGS})
@@ -244,8 +250,9 @@ if(PSP)
         TARGET ${PROJECT_NAME}
         ICON_PATH "../source/ICON0.PNG"
         BACKGROUND_PATH "../source/PIC1.PNG"
+        MUSIC_PATH "../source/SND0.AT3" 
         PREVIEW_PATH NULL
-        TITLE POSTAL PSP
+        TITLE "POSTAL PSP"
         VERSION 01.00
     )
 endif()
