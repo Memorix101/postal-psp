@@ -372,7 +372,8 @@ inline void _BLiT(PIXSIZE* pSrc,PIXSIZE* pDst,int32_t lSrcPitch, int32_t lDstPit
 inline void _BLiT_MA(uint8_t* pSrc,uint8_t* pDst,int32_t lSrcPitch, int32_t lDstPitch,
 						int16_t sHeight,int16_t	sWidth)
 	{
-#ifdef __ARM_NEON__
+#if defined(__ARM_NEON__) || defined(PSP)
+	fprintf(stderr, ">> _BLiT_MA\n");
 	while (sHeight--)
 		{
 		memcpy(pDst, pSrc, sWidth);

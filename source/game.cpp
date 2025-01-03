@@ -1437,7 +1437,7 @@ static int16_t GameCore(void)		// Returns 0 on success.
 	// a game or two along the way.  If there's no user input for a
 	// certain amount of time, automatically run the self-playing demo.
 	RInputEvent ie;
-	memset(&ie, '\0', sizeof (ie));  // fix valgrind complaining... --ryan.
+	memset(&ie, '\0', sizeof (ie));  // fix valgrind complaining... --ryan. 
 	while (sResult == 0)
 		{
 		// Clear the end of game flag each time just to be safe, it only needs
