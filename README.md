@@ -15,8 +15,7 @@ After setting up PSPDEV and git clone the repo
 ```bash
 cd postal-psp
 mkdir build && cd build
-psp-cmake -DBUILD_PRX=1 -DENC_PRX=1 .. && make
-cd build
+psp-cmake -DBUILD_PRX=1 -DENC_PRX=1 .. 
 make
 ```
 
