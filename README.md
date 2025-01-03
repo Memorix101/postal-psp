@@ -9,6 +9,8 @@ Toolchain is [PSPDEV](https://pspdev.github.io/installation.html)
 
 To play get a copy at [Steam](https://store.steampowered.com/app/232770/POSTAL/) or [GOG](https://www.gog.com/en/game/postal_classic_and_uncut)
 
+The game is playable on stock firmware (unmodded PSP)
+
 ## Buildung
 
 After setting up PSPDEV and git clone the repo
