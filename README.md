@@ -12,3 +12,4 @@ To play get a copy at [Steam](https://store.steampowered.com/app/232770/POSTAL/)
 ## Known issues
 
 - Plays fine in PPSSPP but crashes on real hardware
+-  Low fps (high cpu usage)
