@@ -21,7 +21,7 @@ make
 
 #### DO NOT USE `-DENC_PRX=1`  
 
-### Debunging using WSL
+### Debbuging using WSL
 
 - Open Windows PowerShell as admin and install `winget install usbipd` 
 - Then usbipd list and look for PSP Type-B
