@@ -12,12 +12,13 @@ To play get a copy at [Steam](https://store.steampowered.com/app/232770/POSTAL/)
 ## Buildung
 
 After setting up PSPDEV and git clone the repo
-
-`cd postal-psp`
-`mkdir build && cd build`
-`psp-cmake -DBUILD_PRX=1 -DENC_PRX=1 .. && make`
-`cd build`
-`make`
+```bash
+cd postal-psp
+mkdir build && cd build
+psp-cmake -DBUILD_PRX=1 -DENC_PRX=1 .. && make
+cd build
+make
+```
 
 ## Known issues
 
