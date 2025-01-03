@@ -24,8 +24,8 @@ make
 ### Debbuging using WSL
 
 - Open Windows PowerShell as admin and install `winget install usbipd` 
-- Then usbipd list and look for PSP Type-B
-- usbipd attach --wsl --busid=X-X
+- Then `usbipd list` and look for PSP Type-B
+- `usbipd attach --wsl --busid=X-X`
 - Then run [PSP Link](https://pspdev.github.io/debugging.html)
 
 ## Known issues
