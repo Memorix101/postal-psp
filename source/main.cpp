@@ -138,9 +138,14 @@
 //#define RSP_PROFILE_ON
 #include "ORANGE/Debug/profile.h"
 
+#ifdef PSP
+#include <pspkernel.h>
+#include <pspdebug.h>
+#include <pspdisplay.h>
 #include <psppower.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+#endif
 
 #if PLATFORM_MACOSX
 // This redefines main() to something else, since libSDLmain-osx.a will have
