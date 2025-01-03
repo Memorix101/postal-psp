@@ -3,7 +3,7 @@ PSP port of Postal
 
 ![image](https://github.com/user-attachments/assets/46afc14a-58c4-4cf2-81a2-8ddb0a5c698e)
 
-This is a port of the [Open Source Postal source code](https://github.com/RWS-Studios/POSTAL-SourceCode) for Sony PSP
+This is a port of the [original Postal source code](https://github.com/RWS-Studios/POSTAL-SourceCode) for Sony PSP
 
 Toolchain is [PSPDEV](https://pspdev.github.io/installation.html)
 
