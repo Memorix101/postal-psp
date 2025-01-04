@@ -373,7 +373,7 @@ inline void _BLiT_MA(uint8_t* pSrc,uint8_t* pDst,int32_t lSrcPitch, int32_t lDst
 						int16_t sHeight,int16_t	sWidth)
 	{
 #if defined(__ARM_NEON__) || defined(PSP)
-	fprintf(stderr, ">> _BLiT_MA\n");
+	//fprintf(stderr, ">> _BLiT_MA\n");
 	while (sHeight--)
 		{
 		memcpy(pDst, pSrc, sWidth);

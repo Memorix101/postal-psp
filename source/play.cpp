@@ -1392,7 +1392,7 @@ class CPlayGroup
 
 				// Update the portion of the display.
 				rspCacheDirtyRect(pdr->sX, pdr->sY, pdr->sW, pdr->sH);
-				fprintf(stderr, ">> rspCacheDirtyRect: %d,  %d,  %d,  %d\n", pdr->sX, pdr->sY, pdr->sW, pdr->sH);
+				//fprintf(stderr, ">> rspCacheDirtyRect: %d,  %d,  %d,  %d\n", pdr->sX, pdr->sY, pdr->sW, pdr->sH);
 
 				pinfo->m_lSumUpdateDisplayTimes += (rspGetMilliseconds() - lTime);
 
