@@ -777,6 +777,7 @@ int main(int argc, char **argv)
 	fprintf(stderr, "Overclocking PSP\n");
 	scePowerSetClockFrequency(333, 333, 166);
 	mkdir("ms0:/PSP/GAME/postal/savegame", 0777);
+	fprintf(stderr, "Current CPU Clock PSP: %d\n", scePowerGetCpuClockFrequency());
 	#endif
 
     assert_types_are_sane();
